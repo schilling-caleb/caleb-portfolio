@@ -1,0 +1,33 @@
+{
+  "name": "@caleb_schilling/project",
+  "version": "1.0.0",
+  "description": "My personal portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "debug": "^4.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "helmet": "^4.1.1",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "nodemon": "nodemon -r dotenv/config index.js",
+    "start": "node - r dotenv/config index.js"
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "engines": {
+    "node": "12.16.3"
+  },
+  "author": "Caleb Schilling",
+  "license": "MIT"
+}

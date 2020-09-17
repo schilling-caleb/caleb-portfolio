@@ -1,0 +1,35 @@
+<main>
+  <div class="container pt-5">
+    <form class="" id="contact-form" method="POST" action="/contact">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="dougdoughtry@gmail.com" value="{{email}}">
+        <div class="text-danger py-1">{{emailError}}</div>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Subject</label>
+        <input name="subject" type="text" class="form-control" id="exampleInputPassword1"
+          placeholder="Web Design Project Inquiry" value="{{subject}}">
+        <div class="text-danger py-1">{{subjectError}}</div>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+        <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"
+          value="{{message}}"></textarea>
+        <div class="text-danger py-1">{{messageError}}</div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </div>
+      {{!-- <div class="">{{result}}</div> --}}
+      <div class="form-group">
+        {{#if isValid}}
+        <output class="text-success py-1">{{result}}</output>
+        {{else}}
+        <output class="text-danger py-1">{{result}}</output>
+        {{/if}}
+      </div>
+    </form>
+  </div>
+</main>

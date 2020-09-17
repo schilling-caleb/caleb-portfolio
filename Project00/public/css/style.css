@@ -1,0 +1,101 @@
+body{
+  background: rgb(255, 255, 255);
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  background-color: #1B1B1E;
+ 
+}
+
+.navbar-brand{
+  color: #FAA916;
+}
+
+.navbar-brand:hover{
+  color: #e79d14;
+}
+
+.nav-link{
+  color: #FBFFFE;
+}
+.nav-link:hover{
+  color: #96031A;
+}
+
+
+
+.img-fluid{
+  
+}
+
+
+
+.btn-primary{
+  background: #FAA916;
+  color: #FBFFFE;
+  border-color: #FAA916;
+  
+}
+
+.btn-primary:hover{
+  background: #FBFFFE;
+  color: #FAA916;
+  border-color: #FBFFFE;
+}
+
+.btn-warning{
+  background: #FBFFFE;
+  color: #FAA916;
+  border-color: #FBFFFE;
+  border: rgb(220, 220, 220) solid 1px;
+}
+
+.btn-warning:hover{
+  background: #FBFFFE;
+  color: #FAA916;
+  border-color: #FAA916;
+}
+
+.btn-danger{
+  background: #96031A;
+  color: white;
+  border-color: #96031A;
+}
+
+.btn-danger:hover{
+  background: #b5041f;
+  color: white;
+  border-color: #96031A;
+}
+
+.bg-dark{
+ background: #6D676E;
+}
+
+/* MAIN */
+
+#jumbotron-about{
+  min-height: 400px;
+}
+
+#section-about{
+  background: #960319;
+  color: white;
+  min-height: 50vh;
+}
+
+#section-learn{
+  background: #1B1B1E;
+}
+
+#section-learn h2 {
+  color: #FAA916;
+}
+
+.round {
+  border-radius: 100%;
+}
