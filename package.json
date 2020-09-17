@@ -20,7 +20,7 @@
   },
   "scripts": {
     "nodemon": "nodemon -r dotenv/config index.js",
-    "start": "node - r dotenv/config index.js"
+    "start": "node -r dotenv/config index.js"
   },
   "buildpacks": [
     {
